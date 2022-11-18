@@ -1,8 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoodleAssignment.Core\NoodleAssignment.Core.csproj" />
+    <ProjectReference Include="..\NoodleAssignment.Repository\NoodleAssignment.Repository.csproj" />
+    <ProjectReference Include="..\NoodleAssignment.Service\NoodleAssignment.Service.csproj" />
+  </ItemGroup>
 
 
 </Project>
